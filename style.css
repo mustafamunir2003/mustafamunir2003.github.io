@@ -1,0 +1,227 @@
+/* Custom CSS styles */
+
+/* Navbar */
+.navbar {
+    background-color: #343a40 !important;
+}
+/* #testimonials{
+    color: white;
+    background-color: #343a40;
+} */
+.navbar-brand {
+    font-weight: bold;
+}
+/* About Section */
+#about {
+    padding: 100px 0;
+    opacity: 0; /* Initially hide the section */
+    animation: fadeIn 2s ease forwards ; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ffffff;
+    color: #343a40 !important;
+}
+
+/* Home Section */
+#home {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+/* #profile{
+width: 500px;
+align-items: center;
+align-content: center;
+} */
+/* Skills Section */
+#skills {
+    padding: 100px 0;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #343a40;
+    text-align: center;
+}
+
+#skills p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Experience Section */
+#experience {
+    padding: 100px 0;
+}
+
+#experience h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #343a40;
+    text-align: center;
+}
+
+#experience p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 100px 0;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #343a40;
+    text-align: center;
+}
+
+#testimonials p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Education Section */
+#education {
+    padding: 100px 0;
+}
+
+#education h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #343a40;
+    text-align: center;
+}
+
+#education p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Hover Effects and Animations */
+#education,#experience,#testimonials,#skills {
+    transition: all 0.3s ease;
+}
+#profile {
+    cursor: pointer;
+    perspective: 1000px;
+}
+
+#profile .img-fluid {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+#profile.flip .img-fluid {
+    transform: rotateY(180deg);
+}
+#education:hover,#experience:hover,#testimonials:hover,#skills:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#home p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* About Section */
+#about {
+    padding: 100px 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Projects Section */
+#projects {
+    padding: 100px 0;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+.card {
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #23272b;
+    border-color: #23272b;
+}
+
